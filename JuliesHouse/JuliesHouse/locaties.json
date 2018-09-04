@@ -1,0 +1,160 @@
+{
+  "locatie": [
+    {
+      "title": "Julie's House",
+      "id": 1,
+      "lat": 51.0376226,
+      "long": 3.7145432
+    },
+    {
+      "title": "Julie's House",
+      "id": 2,
+      "lat": 51.0716487,
+      "long": 3.7264289
+    },
+    {
+      "title": "Puur M",
+      "id": 3,
+      "lat": 51.014655,
+      "long": 3.6430198
+    },
+    {
+      "title": "Mimi's",
+      "id": 4,
+      "lat": 50.8500999,
+      "long": 2.8823217
+    },
+    {
+      "title": "Arketto",
+      "id": 5,
+      "lat": 51.1665116,
+      "long": 4.1417268
+    },
+    {
+      "title": "Boekenhuis Theoria",
+      "id": 6,
+      "lat": 50.8256779,
+      "long": 3.2622272
+    },
+    {
+      "title": "Li O Lait!",
+      "id": 7,
+      "lat": 51.205785,
+      "long": 3.2194329
+    },
+    {
+      "title": "Mokkabar",
+      "id": 8,
+      "lat": 50.9446631,
+      "long": 3.1212652
+    },
+    {
+      "title": "Fikabar",
+      "id": 9,
+      "lat": 50.9073138,
+      "long": 3.4029491
+    },
+    {
+      "title": "Anna specialty bar",
+      "id": 10,
+      "lat": 50.8791062,
+      "long": 4.7047348
+    },
+    {
+      "title": "Ann De Waele",
+      "id": 11,
+      "lat": 51.0935177,
+      "long": 4.1358936
+    },
+    {
+      "title": "Hof ter Rode Poorte",
+      "id": 12,
+      "lat": 50.9136722,
+      "long": 3.545753
+    },
+    {
+      "title": "Alix Table & Jardin D'Amis",
+      "id": 13,
+      "lat": 51.0389078,
+      "long": 3.7158112
+    },
+    {
+      "title": "De Lozen Boer",
+      "id": 14,
+      "lat": 51.1066217,
+      "long": 3.8733485
+    },
+    {
+      "title": "De Prins Drinkt Koffie",
+      "id": 15,
+      "lat": 50.9350268,
+      "long": 4.0382891
+    },
+    {
+      "title": "Het Brood-Huys",
+      "id": 16,
+      "lat": 51.0522725,
+      "long": 3.7198882
+    },
+    {
+      "title": "Jeanbon: Londres",
+      "id": 17,
+      "lat": 50.8379891,
+      "long": 4.3679894
+    },
+    {
+      "title": "Labath",
+      "id": 18,
+      "lat": 51.054444,
+      "long": 3.7167737
+    },
+    {
+      "title": "Noir Coffeebar",
+      "id": 19,
+      "lat": 50.8766985,
+      "long": 4.7005916
+    },
+    {
+      "title": "OR Coffee Brussel",
+      "id": 20,
+      "lat": 50.8489298,
+      "long": 4.3484892
+    },
+    {
+      "title": "OR Coffee Gent Backstay",
+      "id": 21,
+      "lat": 51.0473223,
+      "long": 3.7271701
+    },
+    {
+      "title": "OR Dok Noord",
+      "id": 22,
+      "lat": 51.0674785,
+      "long": 3.7331589
+    },
+    {
+      "title": "Soul Urban Coffee Bar",
+      "id": 23,
+      "lat": 51.1184875,
+      "long": 3.5609764
+    },
+    {
+      "title": "STAMCafé",
+      "id": 24,
+      "lat": 51.04315,
+      "long": 3.7174644
+    },
+    {
+      "title": "Würst Gent",
+      "id": 25,
+      "lat": 51.0463587,
+      "long": 3.7220956
+    },
+    {
+      "title": "Würst Leuven",
+      "id": 26,
+      "lat": 50.8800411,
+      "long": 4.7006411
+    }
+  ]
+}
