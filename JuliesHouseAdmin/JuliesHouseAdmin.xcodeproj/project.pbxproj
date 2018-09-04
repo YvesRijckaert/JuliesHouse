@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53351B95209F3E0200157299 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53351B94209F3E0200157299 /* AppDelegate.swift */; };
+		53351B9A209F3E0200157299 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53351B98209F3E0200157299 /* Main.storyboard */; };
+		53351B9C209F3E0200157299 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53351B9B209F3E0200157299 /* Assets.xcassets */; };
+		53351B9F209F3E0200157299 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53351B9D209F3E0200157299 /* LaunchScreen.storyboard */; };
+		5384B76320A5BF6F0000EF69 /* Museo_Slab_500.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5384B75D20A5BF6D0000EF69 /* Museo_Slab_500.otf */; };
+		5384B76420A5BF6F0000EF69 /* Museo_Slab_100italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5384B75E20A5BF6E0000EF69 /* Museo_Slab_100italic.otf */; };
+		5384B76520A5BF6F0000EF69 /* Museo_Slab_100.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5384B75F20A5BF6E0000EF69 /* Museo_Slab_100.otf */; };
+		5384B76620A5BF6F0000EF69 /* Museo_Slab_700.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5384B76020A5BF6E0000EF69 /* Museo_Slab_700.otf */; };
+		5384B76720A5BF6F0000EF69 /* Museo_Slab_500italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5384B76120A5BF6E0000EF69 /* Museo_Slab_500italic.otf */; };
+		5384B76820A5BF6F0000EF69 /* Museo_Slab_700italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5384B76220A5BF6F0000EF69 /* Museo_Slab_700italic.otf */; };
+		538CE6B9209F44FA001E5FFA /* OrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538CE6B8209F44FA001E5FFA /* OrderTableViewController.swift */; };
+		53AB18D7209F46060076499F /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AB18D6209F46060076499F /* Order.swift */; };
+		53AB18D9209F461F0076499F /* Cake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AB18D8209F461F0076499F /* Cake.swift */; };
+		97CBCC7FCA3E149CE4E41CA6 /* Pods_JuliesHouseAdmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E1E97787319A4C4A67F1945 /* Pods_JuliesHouseAdmin.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E1E97787319A4C4A67F1945 /* Pods_JuliesHouseAdmin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JuliesHouseAdmin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C7294CF398FB2156CD31BC2 /* Pods-JuliesHouseAdmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JuliesHouseAdmin.release.xcconfig"; path = "Pods/Target Support Files/Pods-JuliesHouseAdmin/Pods-JuliesHouseAdmin.release.xcconfig"; sourceTree = "<group>"; };
+		53351B91209F3E0200157299 /* JuliesHouseAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JuliesHouseAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53351B94209F3E0200157299 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53351B99209F3E0200157299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53351B9B209F3E0200157299 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53351B9E209F3E0200157299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53351BA0209F3E0200157299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5384B75D20A5BF6D0000EF69 /* Museo_Slab_500.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Museo_Slab_500.otf; sourceTree = "<group>"; };
+		5384B75E20A5BF6E0000EF69 /* Museo_Slab_100italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Museo_Slab_100italic.otf; sourceTree = "<group>"; };
+		5384B75F20A5BF6E0000EF69 /* Museo_Slab_100.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Museo_Slab_100.otf; sourceTree = "<group>"; };
+		5384B76020A5BF6E0000EF69 /* Museo_Slab_700.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Museo_Slab_700.otf; sourceTree = "<group>"; };
+		5384B76120A5BF6E0000EF69 /* Museo_Slab_500italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Museo_Slab_500italic.otf; sourceTree = "<group>"; };
+		5384B76220A5BF6F0000EF69 /* Museo_Slab_700italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Museo_Slab_700italic.otf; sourceTree = "<group>"; };
+		538CE6B8209F44FA001E5FFA /* OrderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewController.swift; sourceTree = "<group>"; };
+		53AB18D6209F46060076499F /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		53AB18D8209F461F0076499F /* Cake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cake.swift; sourceTree = "<group>"; };
+		E759E3410BF4D5D44BE47AF5 /* Pods-JuliesHouseAdmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JuliesHouseAdmin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JuliesHouseAdmin/Pods-JuliesHouseAdmin.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53351B8E209F3E0200157299 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97CBCC7FCA3E149CE4E41CA6 /* Pods_JuliesHouseAdmin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53351B88209F3E0200157299 = {
+			isa = PBXGroup;
+			children = (
+				53351B93209F3E0200157299 /* JuliesHouseAdmin */,
+				53351B92209F3E0200157299 /* Products */,
+				FD6355CD010FF406269257BE /* Pods */,
+				7A12251673D7E7879A8A86C9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		53351B92209F3E0200157299 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53351B91209F3E0200157299 /* JuliesHouseAdmin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53351B93209F3E0200157299 /* JuliesHouseAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				53FCCA0420A451270046B12A /* Fonts */,
+				5339D1DE209F3ED80002B562 /* Others */,
+				5339D1DD209F3ED30002B562 /* Resources */,
+				5339D1DC209F3ECB0002B562 /* Controllers */,
+				5339D1DB209F3EC30002B562 /* Storyboards */,
+			);
+			path = JuliesHouseAdmin;
+			sourceTree = "<group>";
+		};
+		5339D1DB209F3EC30002B562 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				53351B9D209F3E0200157299 /* LaunchScreen.storyboard */,
+				53351B98209F3E0200157299 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		5339D1DC209F3ECB0002B562 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				538CE6B8209F44FA001E5FFA /* OrderTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5339D1DD209F3ED30002B562 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				53351B9B209F3E0200157299 /* Assets.xcassets */,
+				53351BA0209F3E0200157299 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5339D1DE209F3ED80002B562 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				53351B94209F3E0200157299 /* AppDelegate.swift */,
+				53AB18D6209F46060076499F /* Order.swift */,
+				53AB18D8209F461F0076499F /* Cake.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		53FCCA0420A451270046B12A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5384B75F20A5BF6E0000EF69 /* Museo_Slab_100.otf */,
+				5384B75E20A5BF6E0000EF69 /* Museo_Slab_100italic.otf */,
+				5384B75D20A5BF6D0000EF69 /* Museo_Slab_500.otf */,
+				5384B76120A5BF6E0000EF69 /* Museo_Slab_500italic.otf */,
+				5384B76020A5BF6E0000EF69 /* Museo_Slab_700.otf */,
+				5384B76220A5BF6F0000EF69 /* Museo_Slab_700italic.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7A12251673D7E7879A8A86C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E1E97787319A4C4A67F1945 /* Pods_JuliesHouseAdmin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD6355CD010FF406269257BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E759E3410BF4D5D44BE47AF5 /* Pods-JuliesHouseAdmin.debug.xcconfig */,
+				2C7294CF398FB2156CD31BC2 /* Pods-JuliesHouseAdmin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53351B90209F3E0200157299 /* JuliesHouseAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53351BA3209F3E0200157299 /* Build configuration list for PBXNativeTarget "JuliesHouseAdmin" */;
+			buildPhases = (
+				0BEECB55B2CF3FAC5B38DA52 /* [CP] Check Pods Manifest.lock */,
+				53351B8D209F3E0200157299 /* Sources */,
+				53351B8E209F3E0200157299 /* Frameworks */,
+				53351B8F209F3E0200157299 /* Resources */,
+				F7C1BB3A3E3AA4D9C96749FC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JuliesHouseAdmin;
+			productName = JuliesHouseAdmin;
+			productReference = 53351B91209F3E0200157299 /* JuliesHouseAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53351B89209F3E0200157299 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Yves Rijckaert";
+				TargetAttributes = {
+					53351B90209F3E0200157299 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 53351B8C209F3E0200157299 /* Build configuration list for PBXProject "JuliesHouseAdmin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53351B88209F3E0200157299;
+			productRefGroup = 53351B92209F3E0200157299 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53351B90209F3E0200157299 /* JuliesHouseAdmin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53351B8F209F3E0200157299 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53351B9F209F3E0200157299 /* LaunchScreen.storyboard in Resources */,
+				5384B76720A5BF6F0000EF69 /* Museo_Slab_500italic.otf in Resources */,
+				53351B9C209F3E0200157299 /* Assets.xcassets in Resources */,
+				5384B76520A5BF6F0000EF69 /* Museo_Slab_100.otf in Resources */,
+				53351B9A209F3E0200157299 /* Main.storyboard in Resources */,
+				5384B76420A5BF6F0000EF69 /* Museo_Slab_100italic.otf in Resources */,
+				5384B76820A5BF6F0000EF69 /* Museo_Slab_700italic.otf in Resources */,
+				5384B76320A5BF6F0000EF69 /* Museo_Slab_500.otf in Resources */,
+				5384B76620A5BF6F0000EF69 /* Museo_Slab_700.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BEECB55B2CF3FAC5B38DA52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JuliesHouseAdmin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7C1BB3A3E3AA4D9C96749FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JuliesHouseAdmin/Pods-JuliesHouseAdmin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JuliesHouseAdmin/Pods-JuliesHouseAdmin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53351B8D209F3E0200157299 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53AB18D9209F461F0076499F /* Cake.swift in Sources */,
+				53AB18D7209F46060076499F /* Order.swift in Sources */,
+				538CE6B9209F44FA001E5FFA /* OrderTableViewController.swift in Sources */,
+				53351B95209F3E0200157299 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53351B98209F3E0200157299 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53351B99209F3E0200157299 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53351B9D209F3E0200157299 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53351B9E209F3E0200157299 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53351BA1209F3E0200157299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53351BA2209F3E0200157299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53351BA4209F3E0200157299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E759E3410BF4D5D44BE47AF5 /* Pods-JuliesHouseAdmin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RZW73LTB7;
+				INFOPLIST_FILE = "$(SRCROOT)/JuliesHouseAdmin/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = be.devine.nad.iPresent.JuliesHouseAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53351BA5209F3E0200157299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C7294CF398FB2156CD31BC2 /* Pods-JuliesHouseAdmin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RZW73LTB7;
+				INFOPLIST_FILE = "$(SRCROOT)/JuliesHouseAdmin/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = be.devine.nad.iPresent.JuliesHouseAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53351B8C209F3E0200157299 /* Build configuration list for PBXProject "JuliesHouseAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53351BA1209F3E0200157299 /* Debug */,
+				53351BA2209F3E0200157299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53351BA3209F3E0200157299 /* Build configuration list for PBXNativeTarget "JuliesHouseAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53351BA4209F3E0200157299 /* Debug */,
+				53351BA5209F3E0200157299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53351B89209F3E0200157299 /* Project object */;
+}
