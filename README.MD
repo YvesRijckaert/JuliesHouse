@@ -34,5 +34,5 @@ For example: change 127.0.0.1:4000/orders to your IP address: 192.168.0.121:4000
 * [Express](https://github.com/expressjs/express)
 * [Node.js](https://github.com/nodejs)
 * [Swift](https://github.com/apple/swift)
-* [CocoaPods](https://guides.cocoapods.org/using/the-podfile.html) - Om Alamofire te installeren
+* [CocoaPods](https://guides.cocoapods.org/using/the-podfile.html) - To install Alamofire
 * [Alamofire](https://github.com/Alamofire/Alamofire) - API / REST in Swift
